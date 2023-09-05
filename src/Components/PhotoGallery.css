@@ -1,0 +1,44 @@
+
+
+.header {
+  font-family: "Roboto Mono", monospace;
+  font-size: 38px;
+  text-align: end;
+ margin: 10px 20px 0 0;
+  position: sticky;
+   top: 0;  
+  background-color: #fff; 
+  z-index: 100; 
+  padding: 10px;
+}
+
+.gallery-view {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+
+.article-details {
+  display: flex;
+}
+
+.author {
+  padding-left: 30px;
+  font-family: "Inconsolata", monospace;
+  font-size: large;
+}
+
+.fa-thumbs-up {
+  padding: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #007fff;
+}
+
+.loading {
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+}
